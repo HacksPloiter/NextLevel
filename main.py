@@ -125,7 +125,6 @@ def login_user():
         return "Username not found or password is incorrect", 400
 
 @app.route('/submit', methods=['POST'])
-@app.route('/submit', methods=['POST'])
 def submit():
     token = request.cookies.get('token')
     if not token:

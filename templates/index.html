@@ -105,48 +105,46 @@
                     </div>
 
                     <div class="col-sm-4">
-                        <button class="tablinks" onclick="openschedule(event, 'tab2')">9:00AM - 9:25AM</button>
+                        <button class="tablinks" onclick="openschedule(event, 'tab2')">9:00AM - 9:15AM</button>
                     </div>
-
                     <div class="col-sm-4">
-                        <button class="tablinks" onclick="openschedule(event, 'tab3')">9:30AM - 9:45AM</button>
-                    </div>
-                </div>
-
-
-                <div class="col-sm 12 np">
-                    <div class="col-sm-4">
-                        <button class="tablinks" onclick="openschedule(event, 'tab4')">9:45AM - 10:15AM</button>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <button class="tablinks" onclick="openschedule(event, 'tab5')">10:20AM - 11:30AM</button>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <button class="tablinks" onclick="openschedule(event, 'tab6')">11:30AM - 11:45AM</button>
+                        <button class="tablinks" onclick="openschedule(event, 'tab3')">9:20AM - 9:45AM</button>
                     </div>
                 </div>
 
                 <div class="col-sm 12 np">
                     <div class="col-sm-4">
-                        <button class="tablinks" onclick="openschedule(event, 'tab7')">11:45AM - 12:45PM</button>
+                        <button class="tablinks" onclick="openschedule(event, 'tab4')">9:50AM - 10:25AM</button>
                     </div>
 
                     <div class="col-sm-4">
-                        <button class="tablinks" onclick="openschedule(event, 'tab8')">12:45PM - 1:15PM</button>
+                        <button class="tablinks" onclick="openschedule(event, 'tab5')">10:30AM - 11:45AM</button>
                     </div>
 
                     <div class="col-sm-4">
+                        <button class="tablinks" onclick="openschedule(event, 'tab6')">11:45AM - 12:00PM</button>
+                    </div>
+                </div>
+
+                <div class="col-sm 12 np">
+                    <div class="col-sm-4">
+                        <button class="tablinks" onclick="openschedule(event, 'tab7')">12:00PM - 01:30PM</button>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <button class="tablinks" onclick="openschedule(event, 'tab8')">01:30PM - 2:00PM</button>
+                    </div>
+                    
+                    <!-- <div class="col-sm-4">
                         <button class="tablinks" onclick="openschedule(event, 'tab9')">1:15PM - 2:00PM</button>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
 
             <div class="col-sm-5 contenti">
                 <div id="tab1" class="tabcontent">
-                    <p style="text-align: center; position:relative;top:40px;">Student* Student Union 222 and Mentor Check-in Student Union 150
+                    <p style="text-align: center; position:relative;top:40px;">Student* Check-in 222 Student Union (SU)
                         <br>(*Students check in by 8:40 a.m. for BONUS tie-breaker points)
                     </p>
                 </div>
@@ -157,32 +155,30 @@
                 </div>
 
                 <div id="tab3" class="tabcontent">
-                    <p style="text-align: center; position:relative;top:40px;">Welcome Woldman Theater</p>
+                    <p style="text-align: center; position:relative;top:40px;">Welcome and Game Orientation Student Union Theater</p>
                 </div>
 
                 <div id="tab4" class="tabcontent">
-                    <p style="text-align: center; position:relative;top:40px;">Game Begins Students Woldman Theater,
-                        <br>Mentor Meeting & Introductions Student Union 235</p>
+                    <p style="text-align: center; position:relative;top:40px;">Game Begins Students SU Theater
+                        <br>Mentor Orientation 235 SU</p>
                 </div>
                 <div id="tab5" class="tabcontent">
-                    <p style="text-align: center; position:relative;top:40px;">Speed Mentoring, Student Union 210 & IDC
-                        240</p>
+                    <p style="text-align: center; position:relative;top:40px;">Speed Introductions 210 SU and Social Hall
+                        <br>Rotation with 235 SU</p>
                 </div>
                 <div id="tab6" class="tabcontent">
-                    <p style="text-align: center; position:relative;top:40px;">Break, Student Union 145</p>
+                    <p style="text-align: center; position:relative;top:40px;">Break outside 145 SU</p>
                 </div>
                 <div id="tab7" class="tabcontent">
                     <p style="text-align: center; position:relative;top:40px;">Mentor Huddles, Student Union 145</p>
                 </div>
                 <div id="tab8" class="tabcontent">
-                    <p style="text-align: center; position:relative;top:40px;">Lunch, Student Union 145</p>
+                    <p style="text-align: center; position:relative;top:40px;">Game Awards SU Theater</p>
                 </div>
-                <div id="tab9" class="tabcontent">
+                <!-- <div id="tab9" class="tabcontent">
                     <p style="text-align: center; position:relative;top:40px;">Tie Breaker Kahoot and Game Prizes,
                         Student Union 145</p>
-                </div>
-
-
+                </div> -->
             </div>
         </div>
     </div>
@@ -193,7 +189,7 @@
 <section class="footer container">
     <div class=" clearfix">
         <div class="col-sm-12">
-            <p>© 2023 Next-Level Leadership. All Rights Reserved.</p>
+            <p>© 2025 Next-Level Leadership. All Rights Reserved.</p>
         </div>
     </div>
 </section>
@@ -205,244 +201,363 @@
 <script src='https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js'></script>
 <script>
     $(document).ready(function () {
-
         var cards = [
             {
-                name: 'Chelsea Montrois',
-                img: 'static/img/mentors/chelseamontrois.jpeg',
-                dsc: 'Product Designer',
-                linked: 'https://www.linkedin.com/in/chelseamontrois/'
+                name: 'Briana Tom', 
+                img: 'static/img/mentors/briana-tom.png',
+                dsc: 'Sales Engineer, Harper International',
+                linked: 'https://www.linkedin.com/in/brianatom/'
             },
-            {
-                name: 'Jasmine Foster',
-                img: 'static/img/mentors/JasmineFoster.jpg',
-                dsc: 'Career Design Consultant',
-                linked: 'https://www.linkedin.com/in/jasminenfoster/'
-            },
-            {
-                name: 'Conor Sullivan',
-                img: 'static/img/mentors/connor1.png',
-                dsc: 'VP Balance Sheet',
-                linked: 'https://www.linkedin.com/in/conor-sullivan-828108148/'
-            },
-            {
-                name: 'Durgham Alyasiri',
-                img: 'static/img/mentors/pic.jpg',
-                dsc: 'Vice President, The M&T Bank Foundation',
-                linked: 'https://www.linkedin.com/in/durgham/'
-            },
-            {
-                name: 'Michael Pease',
-                img: 'assets/img/mentors/micheal.png',
-                dsc: 'CEO, The Chautauqua',
-                linked: 'https://www.linkedin.com/in/michael-pease-826a2212/'
-            },
-            {
-                name: 'Dan Kaczmarek',
-                img: 'static/img/mentors/DanK.JPG',
-                dsc: 'Director of Assessment',
-                linked: 'https://www.linkedin.com/in/daniel-kaczmarek-38a34446/'
-            },
-            {
-                name: 'Riki-Lee Ritz',
-                img: 'static/img/mentors/rikiLeeRitz.JPG',
-                dsc: 'VP & Managing Director',
-                linked: 'https://www.linkedin.com/in/riki-lee-ritz-48078b232/'
-            },
-            {
-                name: 'Erin Feeney',
-                img: 'assets/img/mentors/ErinFeeney.jpeg',
-                dsc: 'Change Management Lead',
-                linked: 'https://www.linkedin.com/in/erin-feeney/'
-            },
-            {
-                name: 'Becky Brubaker',
-                img: 'assets/img/mentors/Brubaker,Becky.jpg',
-                dsc: 'Leader for Transformational Growth of People',
-                linked: 'https://www.linkedin.com/in/beckybrubaker/'
-            },
+
             {
                 name: 'Tommy Linares',
-                img: 'assets/img/mentors/Tommy.png',
-                dsc: 'Coordinator of Student Staff',
-                linked: 'https://www.linkedin.com/in/tommylinares/'
+                img: 'static/img/mentors/Tommy-Linares.png',
+                dsc: 'Coordinator for Student Staff, Orientation, Transition and Parent Programs',
+                linked: 'nan'
             },
-            {
-                name: 'Robert Hengesbach',
-                img: 'assets/img/mentors/robertHengesbach.jpg',
-                dsc: 'Academic Advisor',
-                linked: 'https://www.linkedin.com/in/roberthengesbach/'
-            },
-            {
-                name: 'Javeena Edwards',
-                img: 'static/img/mentors/Javeena Edwards.jpg',
-                dsc: 'CFO/Interim CEO',
-                linked: 'linkedin.com/in/javeena-a-edwards-mba-85a6637a'
-            },
-            {
-                name: 'Denise Herkey-Jarosch',
-                img: 'static/img/mentors/Denise_head_shot.jpg',
-                dsc: 'Development Administrator',
-                linked: 'https://www.linkedin.com/in/denise-herkey-jarosch-126ab71/ '
-            },
-            {
-                name: 'Maria Ta',
-                img: 'static/img/mentors/DSC00259.jpg',
-                dsc: 'Interim Executive Director / Founder & Principal',
-                linked: 'https://www.linkedin.com/in/mariangota/'
-            },
+
             {
                 name: 'Craig Garner',
-                img: 'static/img/mentors/Craig_Headshot.JPG',
-                dsc: 'Director Operational Excellence, Ivoclar Vivadent',
-                linked: 'https://www.linkedin.com/in/craiggar/'
+                img: 'static/img/mentors/Craig-Garner.png',
+                dsc: 'Director of Operational Excellence, Ivoclar',
+                linked: 'https://www.linkedin.com/in/craigjgarner'
             },
+
             {
-                name: 'Katie Morrow',
-                img: 'static/img/mentors/Couch_Kathryn_2022_Headshot_Web.jpg',
-                dsc: 'Commerical Relationship Manager',
+                name: 'Annika Samuels',
+                img: 'static/img/mentors/annika-samuels.png',
+                dsc: 'Director of Diversity and Inclusion, National Fuel Gas',
+                linked: 'https://www.linkedin.com/in/annika-samuels-40034523/'
             },
-            {
-                name: 'Erin Belile',
-                img: 'static/img/mentors/Erin Belile.jpg',
-                dsc: 'School Counselor',
-                linked: 'https://www.linkedin.com/in/erin-belile-77585176/'
-            },
+
             {
                 name: 'Brenda Dysinger',
-                img: 'static/img/mentors/Brenda.jpg',
-                dsc: 'Chief Human Resources Officer',
-                linked: 'http://linkedin.com/in/brenda-dysinger-ms-sphr-77863a9'
+                img: 'static/img/mentors/brenda-dysinger.png',
+                dsc: 'Chief Human Resources Officer, Seneca Gaming Corporation',
+                linked: 'https://www.linkedin.com/in/brenda-dysinger-ms-sphr-77863a9'
             },
+
             {
-                name: 'Courtney Walsh',
-                img: 'static/img/mentors/IMG_1329.jpeg',
-                dsc: 'Assistant Dean, UB',
-                linked: 'http://linkedin.com/in/courtneyjwalsh'
+                name: 'Jessica Ellis',
+                img: 'static/img/mentors/20240711_StaffHeadshots-5.jpg',
+                dsc: 'Complex Director, Buffalo State University',
+                linked: 'https://www.linkedin.com/in/jessica-ellis-563345252'
             },
+
             {
-                name: 'Gloria Basta',
-                img: 'static/img/mentors/headshot.jpg',
-                dsc: 'Speech Language Pathologist',
-                linked: 'https://www.linkedin.com/in/gloria-basta/'
+                name: 'Chelsea Montrois',
+                img: 'static/img/mentors/Montrois-Portrait-Square.jpg',
+                dsc: 'Product Designer, Anthology',
+                linked: 'https://www.linkedin.com/in/chelseamontrois/'
             },
+
             {
-                name: 'A.J. Franklin',
-                img: 'static/img/mentors/0914_forgebuffalo_careerfair_2023_hr-2.jpg',
-                dsc: 'Loaned Executive',
-                linked: 'https://www.linkedin.com/in/a-j-franklin/'
+                name: 'Erin Belile',
+                img: 'static/img/mentors/Erin_Belile_-_Headshot.jpg',
+                dsc: 'School Counselor, Buffalo Public School District',
+                linked: 'https://linkedin.com/in/erin-belile-77585176'
             },
-            {
-                name: 'Heather Campbell',
-                img: 'static/img/mentors/Heather-Campbell_portrait.png',
-                dsc: 'Professional Director',
-                linked: 'https://www.linkedin.com/in/heather-m-campbell/'
-            },
-            {
-                name: 'Darren Cotton',
-                img: 'static/img/mentors/DCotton_Headshot2023.jpg',
-                dsc: 'Executive Director',
-                linked: 'https://www.linkedin.com/in/darren-cotton-94656330/'
-            },
-            {
-                name: 'Thomas Weimer',
-                img: 'static/img/mentors/Facetune_09-12-2023-12-59-40.jpeg',
-                dsc: 'Talent & Organizational Development Consultant',
-                linked: 'https://www.linkedin.com/in/thomasrweimer'
-            },
+
             {
                 name: 'Nicole Bycina',
-                img: 'static/img/mentors/PNG_image_9.png',
-                dsc: 'Adjunct Professor',
-                linked: 'Nicole Collette Bycina/ Aspiring Leaders'
+                img: 'static/img/mentors/pic123.png',
+                dsc: 'Social Entrepreneur, Buffalo Public Schools',
+                linked: 'https://www.linkedin.com/in/aspiringleaders'
             },
+
             {
-                name: 'Kamal Patel',
-                img: 'static/img/mentors/1E46F883-E53D-4BA6-92AB-6F81E095BD8C_1_105_c.jpeg',
-                dsc: 'Head of Product, AireXpert',
-                linked: 'https://www.linkedin.com/in/kamalpat/'
+                name: 'Heather Gresham',
+                img: 'static/img/mentors/IMG_1668.JPG',
+                dsc: 'Counsel & VP of People & Culture, RepresentUs',
+                linked: 'https://www.linkedin.com/in/heather-gresham-esq-sphr-shrm-scp/'
             },
+
             {
-                name: 'Carrie Wiles',
-                img: 'static/img/mentors/Carrie_July_2021.jpg',
-                dsc: 'Director of Client Services',
-                linked: 'https://www.linkedin.com/in/carrie-wiles-93a52/'
+                name: 'Denise Herkey Jarosch',
+                img: 'static/img/mentors/Buffalo_Sabres_6282023_Denise_Give_716.jpeg',
+                dsc: 'Development Administrator, Buffalo Prenatal Perinatal Network (BPPN)',
+                linked: 'https://www.linkedin.com/in/denise-herkey-jarosch-126ab71/'
             },
+
             {
-                name: 'Zhi Ting Phua',
-                img: 'static/img/mentors/IMG_0378.jpeg',
-                dsc: 'Director of Engagement and Inclusion',
-                linked: 'www.linkedin.com/in/zhitingphua/'
+                name: 'Ashley Cannon-Zelasko',
+                img: 'static/img/mentors/IMG_0024.jpeg',
+                dsc: 'Associate Director of Advancement for Student Life, University at Buffalo',
+                linked: 'https://www.linkedin.com/in/ashley-cannon-zelasko-527a9a143'
             },
+
             {
-                name: 'Ian Joyce',
-                img: 'static/img/mentors/Ian Joyce.jpg',
-                dsc: 'IT Manager/Network Architect',
+                name: 'Javeena Edwards',
+                img: 'static/img/mentors/IMG_1710.jpeg',
+                dsc: 'CFO, Girl Scouts of WNY',
+                linked: 'https://linkedin.com/in/javeena-a-edwards-mba-85a6637a'
             },
+
             {
-                name: 'Emily-Rose Barry',
-                img: 'static/img/mentors/erb_headshot.jpg',
-                dsc: 'Vice President of Product',
-                linked: 'https://www.linkedin.com/in/emilyrosebarry/'
-            },
-            {
-                name: 'Edward Brodka',
+                name: 'Ed Brodka',
                 img: 'static/img/mentors/Headshot_NACE23.jpg',
-                dsc: 'Career Design Consultant',
+                dsc: 'Career Design Consultant, UB Career Design Center',
                 linked: 'https://www.linkedin.com/in/edbrodka/'
             },
+
             {
-                name: 'Vrushaali  Nagaraj',
-                img: 'static/img/mentors/IMG_20221230_194453_225.jpg',
-                dsc: 'Specialist IT Intern',
-                linked: 'https://www.linkedin.com/vruna0504'
+                name: 'Mahima Frescas',
+                img: 'static/img/mentors/IMG_0309.jpeg',
+                dsc: 'Program manager, Alkegen',
+                linked: 'https://www.linkedin.com/in/frescasmahima'
             },
+
+
             {
-                name: 'Lisa Carter',
-                img: 'static/img/mentors/Carter_headshot.png',
-                dsc: 'Leadership Coach',
-                linked: 'www.linked.com/in/lcarter9'
+                name: 'Shannon Myers',
+                img: 'static/img/mentors/Shannon_Myers_Headshot.jpg',
+                dsc: 'Student Services Advisor, University at Buffalo',
+                linked: 'https://www.linkedin.com/in/shannon-m-myers/'
             },
+
             {
-                name: 'Nancy Ortiz',
-                img: 'static/img/mentors/FB_IMG_1703728930362.jpg',
-                dsc: 'Import Analyst',
-                linked: 'https://www.linkedin.com/in/nancy-m-ortiz'
+                name: 'Samantha Sowah',
+                img: 'static/img/mentors/IMG_0640.jpeg',
+                dsc: 'Sr Staff Program Manager, Thermo Fisher Scientific',
+                linked: 'https://www.linkedin.com/in/samantha-sowah-pmi-acp-a0548450/'
             },
+
             {
-                name: 'Donte McFadden',
-                img: 'static/img/mentors/IMG_7629.jpeg',
-                dsc: 'Director, Distinguished Visiting Scholars',
-                linked: 'Donte McFadden'
+                name: 'Chris Krueger',
+                img: 'static/img/mentors/IMG_5008.png',
+                dsc: 'High Growth Manager, Odoo',
+                linked: 'https://www.linkedin.com/in/chriskruegervb/'
             },
+
             {
-                name: 'M. Nicole Horsley',
-                img: 'static/img/mentors/headshot.jpeg',
-                dsc: 'Distinguished Visiting Scholar',
-                linked: 'https://www.linkedin.com/in/m.-nicole-horsley/'
+                name: 'A.J. Franklin',
+                img: 'static/img/mentors/1701037009008.jpg',
+                dsc: 'Admissions Counselor, University at Buffalo',
+                linked: 'https://www.linkedin.com/in/a-j-franklin/'
             },
+
             {
-                name: 'Brennan Gorman',
-                img: 'static/img/mentors/Screenshot_2023-12-30_at_9.25.31_AM.png',
-                dsc: 'Graduate Assistant / Founder / Co-Founder & Exec. Director',
-                linked: 'https://www.linkedin.com/in/brennantgorman/'
+                name: 'Shaina Potash',
+                img: 'static/img/mentors/Shaina.jpg',
+                dsc: 'Leadership House Mentor, Student engagement/campus living',
+                linked: 'https://www.linkedin.com/in/shaina-potash-59a730291/'
             },
+
             {
-                name: 'Alexander MacFarlane',
-                img: 'static/img/mentors/Final_Headshot_Passport.jpg',
-                dsc: 'Chief Resident',
-                linked: 'https://www.linkedin.com/in/alexander-macfarlane-md-6a4b781ab/'
+                name: 'Zoey Maggiore',
+                img: 'static/img/mentors/Zoey_Maggiore_Headshot.png',
+                dsc: 'Marketing Production Coordinator, Hodgson Russ LLP',
+                linked: 'https://www.linkedin.com/in/zoeymaggiore/'
             },
+
             {
-                name: 'Renee Terreri',
-                img: 'static/img/mentors/Me_2.jpg',
-                dsc: 'VP of Human Resources',
+                name: 'Anthony Billoni',
+                img: 'static/img/mentors/IMG_6639.jpeg',
+                dsc: 'Owner, APEX Leader Growth LLC',
+                linked: 'https://www.linkedin.com/in/abilloni/'
             },
+
             {
-                name: 'Matthew Parrino',
-                img: 'static/img/mentors/Screenshot_2024-01-03_at_3.25.41_PM.png',
-                dsc: 'Sports Reporter, Syracuse Post Standard',
-                linked: 'https://www.linkedin.com/in/mattparrino/'
+                name: 'Sara Emhof',
+                img: 'static/img/mentors/Business_headshot.jpg',
+                dsc: 'Executive Director and Leadership Coach, Be Your Own Hero',
+                linked: 'https://www.linkedin.com/in/saraemhof/'
+            },
+
+            {
+                name: 'Thomas Weimer',
+                img: 'static/img/mentors/IMG_7565_Facetune_17-03-2022-17-13-09.jpeg',
+                dsc: 'Talent & Organizational Development Consultant, Five Star Bank',
+                linked: 'https://www.linkedin.com/in/thomasrweimer'
+            },
+
+            {
+                name: 'Rob Hengesbach',
+                img: 'static/img/mentors/RH_Headshot.jpg',
+                dsc: 'Academic Advisor, University at Buffalo Office of Educator Preparation',
+                linked: 'https://www.linkedin.com/in/roberthengesbach/'
+            },
+
+            {
+                name: 'Michael Seils',
+                img: 'static/img/mentors/seils_professional_photo.jpg',
+                dsc: 'Clinical Assistant Professor, University at Buffalo Rehabilitation Science',
+                linked: 'https://www.linkedin.com/in/michaelseils'
+            },
+
+            {
+                name: 'Matthew Spector',
+                img: 'static/img/mentors/MATT_SPECTOR_edit.jpeg',
+                dsc: 'Integration Developer, LeapPoint',
+                linked: 'https://www.linkedin.com/in/matthew-spector'
+            },
+
+            {
+                name: 'Theresa Roma',
+                img: 'static/img/mentors/FB_IMG_1734104384075.jpg',
+                dsc: 'Head of Insurance Solutions, Wellthy',
+                linked: 'https://www.linkedin.com/in/theresaroma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+            },
+
+            {
+                name: 'Jasmine Foster',
+                img: 'static/img/mentors/LeadershipBuffaloGraduation-1.jpg',
+                dsc: 'Program and Marketing Manager, Leadership Buffalo',
+                linked: 'https://www.linkedin.com/in/jasminenfoster/'
+            },
+
+            {
+                name: 'Paris Wicker',
+                img: 'static/img/mentors/Wicker_Headshot_.png',
+                dsc: 'Assistant Professor of Higher Education, University at Buffalo (Graduate School of Education)',
+                linked: 'https://www.linkedin.com/in/pariswicker/'
+            },
+
+            {
+                name: 'Valerie Bevan',
+                img: 'static/img/mentors/IMG_5679_Facetune_19-10-2023-12-12-38.jpeg',
+                dsc: 'Data Engineer, IBM Consulting',
+                linked: 'https://www.linkedin.com/in/valerie-bevan-317897195/'
+            },
+
+            {
+                name: 'Nate Mark',
+                img: 'static/img/mentors/UB_Student_Life_Headshots_Nathaniel_Mark_10.24.24_NancyJParisi_8633_FINAL..jpg',
+                dsc: 'Leadership House Lead Professional Development Peer Mentor, Student Engagement',
+                linked: 'https://www.linkedin.com/in/nathanielmark/'
+            },
+
+            {
+                name: 'Nazmus Saquib',
+                img: 'static/img/mentors/Headshot_-_Nazmus.jpg',
+                dsc: 'Graduate Coordinator, Student Engagement, University at Buffalo',
+                linked: 'https://www.linkedin.com/in/nazmus-saquib-bd/'
+            },
+
+            {
+                name: 'Daniela Goya-Tocchetto',
+                img: 'static/img/mentors/Goya-Tocchetto_9-23.jpg',
+                dsc: 'Assistant Professor, University at Buffalo',
+                linked: ''
+            },
+
+            {
+                name: 'Drew Burdette',
+                img: 'static/img/mentors/DoILookLike.PNG',
+                dsc: 'President of the National Society of Black Engineers | Former Solutions Architect at Amazon, Computer Science Student at University at Buffalo',
+                linked: 'https://www.linkedin.com/in/andrew-burdette/'
+            },
+
+            {
+                name: 'Luis Galarza',
+                img: 'static/img/mentors/IMG_6373.jpeg',
+                dsc: 'Student, University at Buffalo',
+                linked: 'https://www.linkedin.com/in/luisgala?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+            },
+
+            {
+                name: 'Marley Nembhard',
+                img: 'static/img/mentors/1712641096968.jpg',
+                dsc: 'Secretary of Delta Epsilon Chapter of Alpha Phi Alpha Fraternity Inc., University at Buffalo',
+                linked: 'https://www.linkedin.com/in/marley-nembhard-40a416242/'
+            },
+
+            {
+                name: 'Asantewa Holley',
+                img: 'static/img/mentors/Asantewa_K._Holley_Headshot.jpg',
+                dsc: 'VP Operations, Northland Workforce Training Center',
+                linked: 'https://www.linkedin.com/in/asantewa-holley-mba-856b33124'
+            },
+
+            {
+                name: 'Thomas Farry',
+                img: 'static/img/mentors/IMG_2019.JPEG',
+                dsc: 'Teacher & Marching Instructor, West Seneca Central Schools and UB Athletic Bands',
+                linked: ''
+            },
+
+            {
+                name: 'Mark Stramaglia',
+                img: 'static/img/mentors/Mark_Stramaglia_4516_small.jpg',
+                dsc: "Principle and CEO, Let's Get Started Consultancy",
+                linked: 'https://www.linkedin.com/in/mark-stramaglia-1745172/'
+            },
+
+            {
+                name: 'Tracey Drury',
+                img: 'static/img/mentors/Tracey_Drury_mug.jpg.png',
+                dsc: 'Senior reporter, Buffalo Business First',
+                linked: 'https://www.linkedin.com/in/tracey-drury/'
+            },
+
+            {
+                name: 'Brittany Tranello',
+                img: 'static/img/mentors/3-22-23-015.jpg',
+                dsc: 'Executive Director, Erie Niagara Area Health Education Center (ENAHEC)',
+                linked: 'https://www.linkedin.com/in/brittany-r-mitchell/'
+            },
+
+            {
+                name: 'Joseph Hitchcock',
+                img: 'static/img/mentors/Hitchcock_Joey_2021_(9)_(2).JPG',
+                dsc: 'Career and Academic Planning Advisor, First-Year Advisor, St. John Fisher University',
+                linked: 'https://www.linkedin.com/in/jjhitchc/'
+            },
+
+            {
+                name: 'Jennifer Schulefand',
+                img: 'static/img/mentors/Headshot.jpg',
+                dsc: 'Fractional CFO, Jennifer Schulefand Consulting LLC',
+                linked: 'https://linkedin.com/in/jenniferschulefand'
+            },
+
+            {
+                name: 'Sonya Tareke',
+                img: 'static/img/mentors/IMG_1545.jpeg',
+                dsc: 'Sr. Program Manager, The Exchange @ Beverly Gray',
+                linked: 'https://www.linkedin.com/in/stareke/'
+            },
+
+            {
+                name: 'Salman Ahmed',
+                img: 'static/img/mentors/salmanheadshot162025.jpg',
+                dsc: 'Branch Manager, Assistant Vice President., M&T Bank',
+                linked: 'https://www.linkedin.com/in/salmanah'
+            },
+
+            {
+                name: 'Beth Bivona',
+                img: 'static/img/mentors/Beth_Bivona35.jpg',
+                dsc: 'Senior Vice President and Associate General Counsel, M&T Bank',
+                linked: 'https://www.linkedin.com/in/bivona/'
+            },
+
+            {
+                name: 'Latoya Gonzales',
+                img: 'static/img/mentors/Gonzales_Latoya_2022_Headshot_Print.jpg',
+                dsc: 'Cybersecurity Strategy Product Owner, M&T Bank',
+                linked: 'https://www.linkedin.com/in/latoya-gonzales/'
+            },
+
+            {
+                name: 'Carmen DeAngelo',
+                img: 'static/img/mentors/IMG_6425.PNG',
+                dsc: 'Teacher, Charter School for Applied technologies',
+                linked: 'https://www.linkedin.com/in/carmen-deangelo-387072313/'
+            },
+
+            {
+                name: 'Tiffany Lambert-Winfrey',
+                img: 'static/img/mentors/IMG_20240609_123940.jpg',
+                dsc: 'Customer Identification Program, M&T Bank',
+                linked: 'https://www.linkedin.com/in/tiffany-lambert-winfrey-4857b030/'
+            },
+
+            {
+                name: 'Michael Pease',
+                img: 'static/img/mentors/default.jpg',
+                dsc: 'CEO, The Chautauqua Center',
+                linked: 'nan'
             }
         ];
         cards.forEach(function (t, i) {

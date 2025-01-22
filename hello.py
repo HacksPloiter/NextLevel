@@ -1,7 +1,6 @@
 import pandas as pd
 
-file_path = 'C:/Users/karti/OneDrive/Desktop/Personal Projects/NextLevel/mentors.csv'
-
+file_path = 'mentors.csv'
 
 def format_mentor_data(file_path):
     try:
