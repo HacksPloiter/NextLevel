@@ -926,6 +926,10 @@ form {
     padding: 100px 15px;
 }
 
+.customizer-about-img {
+    max-width: 70%;
+}
+
 .dopup .btn {
     width: 200px;
 }

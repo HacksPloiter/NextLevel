@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Next-Level Leadership Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet'
+          href='https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css'>
+    <link rel='stylesheet'
+          href='https:////cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7e593ee29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <br>
+            <a class="navbar-brand" href="/">
+                <img src="../static/img/others/UB.png" alt="UB Logo" style="height: 50px;">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/game">Game</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+                <li class="active"><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Main Content -->
+<section class="container-fluid sec-3">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-sm-6">
+                <h1>Meet our team!</h1>
+                <p>Meet our amazing team making the conference a huge success every year!</p>
+            </div>
+
+            <div class="col-sm-6">
+                <img src="assets/img/others/image2.svg" class="main-img img-responsive customizer-about-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid sec4">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div id="middleHero">
+                    <h2 class="mentorTitle" id="mentorTitle">
+                        <!-- Please don't remove old conference staffs list. Keep appending to the top of this section for subsequent years. - Tan, 7th Feb 25. -->
+                        Conference 2025</h2>
+                    <div class="row" id="mentors">
+                        <div class="card-slider"></div>
+                    </div>
+                    <div style="clear: both; padding-bottom: 40px; "></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js'></script>
+<script>
+    $(document).ready(function () {
+        var cards = [
+            {
+                name: "Susan O'Rourke", 
+                img: 'static/img/staffs/Susan.png',
+                dsc: 'Assistant Director for Student Engagement',
+                linked: 'https://www.linkedin.com/in/susan-davis-orourke/'
+            },
+
+            {
+                name: "Dr. Trung Nguyen", 
+                img: 'static/img/staffs/Trung Nguyen.jpeg',
+                dsc: 'Assistant VP for Student Engagement and Success',
+                linked: 'https://www.linkedin.com/in/trung-q-nguyen/'
+            },
+
+            {
+                name: 'Ally Sievers',
+                img: 'static/img/staffs/Ally Sievers.jpeg',
+                dsc: 'LEAD Coordinator',
+                linked: 'https://www.linkedin.com/in/allysievers/'
+            },
+
+            {
+                name: 'Sarah Schauer', 
+                img: 'static/img/staffs/Sarah Schauer.jpeg',
+                dsc: 'LEAD Coordinator',
+                linked: 'https://www.linkedin.com/in/sarahschauer/'
+            },
+
+            {
+                name: 'Maria Cacho', 
+                img: 'static/img/staffs/Maria Cacho.jpeg',
+                dsc: 'Graduate Assistant',
+                linked: 'https://www.linkedin.com/in/cacho-maria/'
+            },
+
+            {
+                name: 'Elnaz Amini', 
+                img: 'static/img/staffs/Elnaz Amini.jpeg',
+                dsc: 'Graduate Assistant',
+                linked: 'https://www.linkedin.com/in/elnazamini/'
+            },
+
+            {
+                name: 'Prateek Sharma', 
+                img: 'static/img/staffs/Prateek Sharma.jpeg',
+                dsc: 'Logisics and Game',
+                linked: 'https://www.linkedin.com/in/prateek-sharma-91a93p/'
+            },
+
+            {
+                name: 'Tanweer Ashif', 
+                img: 'static/img/staffs/Tanweer Ashif.jpg',
+                dsc: 'Logisics and Game',
+                linked: 'https://www.linkedin.com/in/tanweerashif/'
+            },
+
+            {
+                name: 'Kartike Chaurasia', 
+                img: 'static/img/staffs/Kartike Chaurasia.jpeg',
+                dsc: 'Logisics and Game',
+                linked: 'https://www.linkedin.com/in/kartike2001/'
+            },
+
+            {
+                name: 'Isaac Ho',
+                img: 'static/img/staffs/Isaac Ho.jpeg',
+                dsc: 'Logisics and Game',
+                linked: 'https://www.linkedin.com/in/isaacwho/'
+            }
+        ];
+        cards.forEach(function (t, i) {
+            var cardhtml = `<div class="card">
+    <h2 class="title">${
+                t.name
+            }</h2>
+
+    <div class="image">
+      <img src="${
+                t.img
+            }" alt="${
+                t.dsc
+            }">
+    </div>
+  <p class="description">${
+                t.dsc
+            }</p>
+    <div class="button-28-div">
+        <button onclick="window.location.href='${
+                t.linked
+            }'" class = "button-28" role = "button">Connect</button>
+    </div>
+                       
+
+
+</div>`
+            $('.card-slider').append(cardhtml)
+        })
+        $('.card-slider').slick({
+            dots: false,
+            arrows: true,
+            slidesToShow: 5,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }, {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    });
+
+    function openschedule(evt, cityName) {
+        var i,
+            tabcontent,
+            tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+<!-- Footer -->
+<section class="footer container">
+    <div class=" clearfix">
+        <div class="col-sm-12">
+            <p>© 2025 Next-Level Leadership. All Rights Reserved.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

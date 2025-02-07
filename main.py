@@ -91,6 +91,13 @@ def login():
     response.set_cookie('visits', str(visits), max_age=3600)
     return response
 
+@app.route('/about')
+def about():
+    visits = int(request.cookies.get('visits', 0)) + 1
+    response = make_response(render_template('about.html'))
+    response.set_cookie('visits', str(visits), max_age=3600)
+    return response
+
 @app.route('/registeruser', methods=['POST'])
 def register_user():
     username = request.form.get('username')
@@ -178,6 +185,10 @@ def submit():
 @app.route('/assets/img/mentors/<filename>')
 def mentor_image(filename):
     return send_from_directory('static/img/mentors', filename)
+
+@app.route('/assets/img/staffs/<filename>')
+def staffs_image(filename):
+    return send_from_directory('static/img/staffs', filename)
 
 @app.route('/assets/img/others/<filename>')
 def other_image(filename):
